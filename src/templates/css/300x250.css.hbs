@@ -1,0 +1,65 @@
+.center {
+	position: absolute;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.container { position: absolute; }
+
+.container *, .txt-wrapper > * {
+	display: block; 
+	position: relative;
+}
+
+.txt-wrapper { width: 100%; }
+.txt-wrapper em { 
+	display: inline-block;
+	text-indent: 0 !important;
+}
+
+/* Text */
+
+p {
+	text-align: center;
+	width: 100%;
+	line-height: 1;
+}
+
+/* Images */
+
+img.pic {
+	top: 0;
+	left: 0;
+	width: {{width}}px;
+}
+
+div.line {
+	background-color: black;
+	height: 1px;
+}
+{{#each frame_modules}}
+
+{{!--/* Module {{int @index}} Start : {{this.css}} */--}}
+{{> (getName this.css) root=..}}
+{{!--/* Module {{int @index}} End  : {{this.css}} */--}}
+{{/each}}
+
+/* Replay Btn */
+
+.replay {
+	bottom: 0;
+	right: 0;
+}
+#replay-container {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	visibility: hidden;
+}
+svg#replaySvg{
+	width: 16px;
+	opacity: 0.5;
+	position: relative;
+	margin: 0 auto;
+}

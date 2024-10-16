@@ -1,0 +1,68 @@
+/* End */
+
+#end { top: {{#if top}}{{top}}{{else}}129px{{/if}}; }
+{{#if h1}}
+/* #end p { color: red; } */
+
+p#end-txt {
+	font-size: 19px;
+	line-height: 1;
+	letter-spacing: 4px;
+	text-indent: 4px;
+}
+p#end-txt span.minion{
+	white-space: nowrap;
+}
+p#end-txt span.brandon{
+	margin-top: 9px;
+}
+
+{{#each h1}}
+{{~#if css}}
+p#end-txt span#end-txt{{int @index}} { 
+	{{#each css}}
+	{{@key}}: {{.}};
+	{{/each}}
+}
+{{/if~}}
+{{/each}}
+{{/if~}}
+
+p.cta-txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	color: {{root.global.green}};
+	{{#if cta.css}}
+	{{#each cta.css}}
+	{{@key}}: {{.}};
+	{{/each}}
+	{{else}}
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 3px;
+	text-indent: 3px;
+	{{/if}}
+	white-space: nowrap;
+}
+
+div#cta-container {
+	margin-top: {{cta.marginTop}};
+}
+
+img#end-mag-logo {
+	width: {{#if magLogo.width}}{{magLogo.width}}{{else}}116px{{/if}};
+	margin-top: {{magLogo.marginTop}};
+}
+
+div#end-line { 
+	width: 54px;
+	margin-top: 23px;
+}
+
+svg#end-jh-logo {
+	width: 118px{{!root.size.jhLogo.width}};
+	height: 24px{{!root.size.jhLogo.height}}; /* Need to manually set height */
+	margin-top: 23px;
+}

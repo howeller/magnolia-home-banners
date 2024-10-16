@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Reset element */
+em {
+	font-style: inherit;
+	text-indent: 0 !important;
+}
+
+body, html {
+	background-color: white;
+	border: 0 none;
+	color: black;
+	overflow: hidden;
+	outline: 0;
+	position: absolute;
+}
+
+html {
+	font-family: brandon-grotesque, sans-serif;
+	/* Adjust font size */
+	-webkit-text-size-adjust: 100%;	
+	font-size: 100%;{{!-- 
+	/* Font varient */
+	-webkit-font-variant-ligatures: none;
+	font-variant-ligatures: none;
+	/* Smoothing */
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;--}}
+}
+
+button {
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
+button:focus {
+	outline: 5px solid {{global.green}}; /* For ADA tabbing */
+}
+
+img, svg, p, button, .txt-wrapper {
+	position: absolute;
+	display: block;
+}
+
+p span { display: block; }
+
+.border {
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+	pointer-events: none
+}
+
+.brandon, .brandon-b , .brandon-m {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+}
+.brandon { font-weight: 400; }
+.brandon-m { font-weight: 500; }
+.brandon-b { font-weight: 700; }
+
+.minion {
+	font-family: minion-pro, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.full-size {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: {{width}}px;
+	height: {{height}}px;
+}
+
+#banner {
+	background-color: white;
+	visibility: hidden;
+	position: relative;
+	overflow: hidden;
+}

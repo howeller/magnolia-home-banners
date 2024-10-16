@@ -1,0 +1,18 @@
+<div id="end" class="container">
+	{{#if txt.spans}}
+	<p id="end-txt">
+		{{#each txt.spans}}
+		<span id="end-txt{{int @index}}"{{#if class}} class="{{class}}"{{/if}}>{{{txt}}}</span>				
+		{{/each}}
+	</p>
+	{{/if}}
+	<div id="end-lockup" class="container">
+	<img id="end-mag-logo" class="center" src="images/{{root.size.endMagLogo}}" alt="MAGNOLIA HOME"/>
+	<div id="end-line" class="line center" aria-hidden="true"></div>
+	<svg id="end-jh-logo" class="center" xmlns="http://www.w3.org/2000/svg"><use href="#jh-logo"/></svg>
+	</div>
+	<div id="cta-container" class="brandon-b cta-txt">
+		<p id="cta1" class="brandon-b cta-txt">{{{getCta1Txt root}}}</p>{{!log (getCta1Txt root) }}
+		<p id="cta2" class="brandon-b cta-txt">{{{getCta2Txt root}}}</p>
+	</div>
+</div>

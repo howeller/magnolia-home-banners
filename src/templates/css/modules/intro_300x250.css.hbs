@@ -1,0 +1,48 @@
+/* Intro */
+
+#intro-lockup { 
+	top: 52px; 
+	width: 160px;
+	{{#if txt.left}}left: {{txt.left}};{{/if}}
+}
+
+#intro-lockup p, #intro-lockup img  {
+	left: 50%;
+	transform: translateX(-50%);
+}
+p#intro-txt1 {
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 2px;
+	text-indent: 2px;
+}
+
+p#intro-txt2 {
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 5px;
+	text-indent: 5px;
+	margin-top: 19px;
+}
+
+img#intro-mag-logo {
+	width: {{#if magLogo.width}}{{magLogo.width}}{{else}}129px{{/if}};
+	margin-top: {{#if magLogo.marginTop}}{{magLogo.marginTop}}{{else}}16px{{/if}};
+}
+
+svg#intro-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+	margin-top: 8px;
+}
+
+img#intro-pic { 
+	left: {{#if img.left}}{{img.left}}{{else}}160px{{/if}};
+	top: {{#if img.top}}{{img.top}}{{else}}0{{/if}};
+	width: {{#if img.width}}{{img.width}}{{else}}140px{{/if}};
+}
+
+div#intro-line { 
+	width: 35px;
+	margin-top: 15px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="ad.size" content="width={{width}},height={{height}}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>{{name}}</title>
+	<link rel="stylesheet" href="https://use.typekit.net/cov5obe.css">
+	<script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.9.1_min.js"></script>
+	<script type="text/javascript">var clickTag = "";</script>
+	<style type="text/css">
+		{{> global.css }}
+		{{> (getCss) }}
+	</style>
+</head>
+
+<body>
+	{{> jh-logo.svg}}
+	<div id="banner" class="full-size" role="banner">
+		{{#if (showFpo)}}<img src="../../fpo/{{name}}/{{showFpo}}" class="full-size" width="{{width}}" />{{/if}}
+		{{#each frame_modules}}
+		{{!--<!-- Module {{int @index}} Start : {{this.html}} -->--}}
+		{{> (getName this.html) root=..}}
+		{{!--<!-- Module {{int @index}} End  : {{this.html}} -->--}}
+		{{/each}}
+
+		<div class="border full-size"></div>
+		<button id="clicker" class="clickable full-size" onclick="window.open(window.clickTag)"></button>
+		<button id="replay-container" class="replay" aria-label="replay">
+			{{> replay.svg}}
+		</button>
+	</div>
+	<script type="text/javascript">
+		{{> main.js}}
+	</script>
+</body>
+</html>

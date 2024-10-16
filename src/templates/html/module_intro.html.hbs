@@ -1,0 +1,11 @@
+<!-- Intro Photo Bottom -->
+<div id="intro" class="full-size">
+	<img id="intro-pic" class="pic" src="images/{{img.src}}" alt="" />
+	<div id="intro-lockup" class="container">{{#unless (isHorizontal root)}}
+		<p id="intro-txt1" class="minion">introducing the</p>{{/unless}}
+		<img id="intro-mag-logo" src="images/{{#if (isHorizontal root)}}mag_logo_2x.png{{else}}mag_logo_stacked_2x.png{{/if}}" alt="MAGNOLIA HOME" />
+		<div id="intro-line" class="line{{#unless (isHorizontal root)}} center{{/unless}}" aria-hidden="true"></div>
+		<svg id="intro-jh-logo" class="{{#unless (isHorizontal root)}}center{{/unless}}" xmlns="http://www.w3.org/2000/svg"><use href="#jh-logo"/></svg>{{#unless (isHorizontal root)}}
+		<p id="intro-txt2" class="brandon-m">COLLECTION</p>{{/unless}}
+	</div>		
+</div>

@@ -1,0 +1,36 @@
+function animate() {
+	cl('{{name}}');
+
+  tl.set('#banner', {'visibility':'visible'})
+  .add('start')
+  .set(['.container' ], {skewX:0.1}, 'start')// Remove stutter/snapping on SVGs
+  .from('#banner', { autoAlpha:0 }, 'start')
+  .add('frame2', '+={{frame_modules.[0].pause}}')
+  .to('#intro', {autoAlpha:0}, 'frame2')
+  .from('#mod2', {autoAlpha:0}, 'frame2')
+  .add('frame3', '+={{frame_modules.[1].pause}}')
+  .to('#mod2', {autoAlpha:0}, 'frame3')
+  .from('#mod3', {autoAlpha:0}, 'frame3')
+  .from('#mod3-txt-wrapper', { autoAlpha:0 })
+  .add('frame4', '+={{frame_modules.[2].pause}}')
+  .to('#mod3-txt-wrapper', {autoAlpha:0}, 'frame4')
+  .from('#mod4', {autoAlpha:0}, 'frame4')
+  .to(['#mod3','#mod4'], {autoAlpha:0}, '+={{frame_modules.[3].pause}}')
+  .add('end')
+  .from('#end-line', { scaleY:0 }, 'end')
+  .from('#end-mag-logo', { autoAlpha:0, x: '+=10', force3D:false }, 'end+=0.3')
+  .from('#end-jh-logo', { autoAlpha:0, x: '-=10', force3D:false }, 'end+=0.3')
+  .from('#cta-container', {autoAlpha:0})
+  .to('#cta1', {autoAlpha:0}, '+=1.5')
+  .from('#cta2', {autoAlpha:0})
+  .add(initReplayAction)
+  .from(replay.container, { autoAlpha: 0, rotation:-360 },'-=.3')
+  // tl.pause('0.5');
+  // tl.pause('4.5');
+  // tl.pause('6.3');
+  // tl.pause('9.5');
+  // tl.pause('12.5');
+  //  .seek('end');
+  ;
+	console.log('Animation Runtime is ' + tl.endTime());
+}

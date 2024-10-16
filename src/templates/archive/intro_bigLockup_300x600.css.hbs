@@ -1,0 +1,39 @@
+/* Intro */
+
+#intro-lockup { 
+	top: {{txt.top}};
+}
+
+p#intro-txt1 {
+	font-size: 21px;
+	line-height: 1px;
+	letter-spacing: 2px;
+}
+
+p#intro-txt2 {
+	font-size: 18px;
+	line-height: 1;
+	letter-spacing: 4px;
+	margin-top: 25px;
+}
+
+img#intro-mag-logo {
+	width: 228px;
+	margin-top: 37px; {{!--#if magLogo.marginTop}}{{magLogo.marginTop}}{{else}}26px{{/if--}};
+  ;
+}
+
+svg#intro-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+	margin-top: 26px;
+}
+
+img#intro-pic { 
+	top: {{#if img.top}}{{img.top}}{{else}}0{{/if}};
+}
+
+div#intro-line { 
+	width: 58px;
+	margin-top: 33px;
+}

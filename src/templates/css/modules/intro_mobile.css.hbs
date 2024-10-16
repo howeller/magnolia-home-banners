@@ -1,0 +1,39 @@
+/* Intro */
+
+#intro-lockup {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: {{#if lockUpWidth}}{{lockUpWidth}}{{else}}{{root.size.lockUpWidth}}{{/if}};
+	height: 50px;
+	{{#if_eq img.align 'left'}}
+	left: {{root.size.defaultLockupX}};
+	{{/if_eq}}	
+}
+
+#intro-lockup > *  { 	
+	display: inline-block;
+	position: relative;
+}
+
+img#intro-mag-logo {
+	width: {{root.size.magLogo.width}};
+}
+
+svg#intro-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+}
+
+div#intro-line {
+	width: 1px;
+	height: 14px;
+	margin: 0 12px;
+}
+
+{{#if_eq img.align 'left'}}
+img#intro-pic { 
+	left: 0;
+}
+{{/if_eq}}

@@ -1,0 +1,40 @@
+function animate() {
+	cl('{{name}}');
+	var mod3Y = (gsap.getProperty('#mod3-pic-btm', 'top') + (gsap.getProperty('#mod3-pic-btm', 'height') - {{height}})).toString();
+
+	tl.set('#banner', {'visibility':'visible'})
+		.add('start')
+		.set(['.container' ], {skewX:0.1}, 'start')// Remove stutter/snapping on SVGs
+		.from('#banner', { autoAlpha:0 }, 'start')
+		{{!// .from('#intro .container', { autoAlpha:0, force3D:false })}}
+		.add('frame2', '+={{#if frame1Pause}}{{frame1Pause}}{{else}}2.0{{/if}}')
+		.to('#intro', {autoAlpha:0}, 'frame2')
+		.from('#mod2', {autoAlpha:0}, 'frame2')
+		{{!// .from('.quote-txt span',  { autoAlpha:0 })}}
+		{{!// .from('.author',  { autoAlpha:0 })}}
+		.add('frame3', '+={{#if frame2Pause}}{{frame2Pause}}{{else}}2.5{{/if}}')
+		.to('#mod2', {autoAlpha:0}, 'frame3')
+		.from('#mod3', {autoAlpha:0}, 'frame3')
+		{{!// .from('#mod3-txt1', { autoAlpha:0 })}}
+		.add('frame4', '+={{#if frame3Pause}}{{frame3Pause}}{{else}}2.2{{/if}}')
+		.to('#mod3-pic-btm', {y: '-='+mod3Y, ease:'power3.inout', duration:0.5}, 'frame4'){{!y:'-=401'}}
+		.from('#mod3-txt2 span', { autoAlpha:0, stagger:0.2 })
+		.to('#mod3', {autoAlpha:0}, '+={{#if frame4Pause}}{{frame4Pause}}{{else}}2.2{{/if}}')
+		.add('end')
+		.from(['#end-txt span'], { autoAlpha:0{{!, stagger:0.2}} }, 'end')
+		.from('#end-line', { scaleX:0 }, 'end')
+		.from('#end-mag-logo', { autoAlpha:0, y: '+=10', force3D:false }, 'end+=0.3')
+		.from('#end-jh-logo', { autoAlpha:0, y: '-=10', force3D:false }, 'end+=0.3')
+		.from('#cta-container', {autoAlpha:0})
+		.to('#cta1', {autoAlpha:0}, '+=2')
+		.from('#cta2', {autoAlpha:0})
+		.add(initReplayAction)
+		.from(replay.container, { autoAlpha: 0, rotation:-360 },'-=.3')
+		// tl.pause('0.5');
+		// tl.pause('4.5');
+		// tl.pause('7.5');
+		// tl.pause('10.5');
+		// .seek('end');
+		;
+		console.log('Animation Runtime is ' + tl.endTime());
+}

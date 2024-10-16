@@ -1,0 +1,85 @@
+/* End */
+
+#end {
+	display: block;
+	width: {{root.width}}px;
+	height: {{root.height}}px; 
+}
+	
+#end > * {
+	display: block;
+	position: absolute;
+}  
+
+#end-lockup {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: {{root.size.lockUpWidth}};
+	height: 50px;
+}
+
+#end-lockup > *  { 
+	display: inline-block;
+	position: relative;
+}
+
+p.cta-txt {
+	display: block;
+	color: {{root.global.green}};
+	text-align: center;
+	{{#if cta.css}}
+	{{#each cta.css}}
+	{{@key}}: {{.}};
+	{{/each}}
+	{{else}}
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: 2.5px;
+	text-indent: 2.5px;
+	{{/if}}
+}
+div#cta-container {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	right: 0;	
+	width: {{#if cta.width}}{{cta.width}}{{else}}{{root.size.defaultCtaWidth}}{{/if}};
+	height: {{root.height}}px;
+}
+
+img#end-mag-logo {
+	width: {{root.size.magLogo.width}};
+}
+
+div#end-line { 
+	width: 1px;
+	height: 14px;
+	margin: 0 12px;
+}
+
+svg#end-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+}
+
+/* Replay Btn */
+
+.replay {
+	bottom: 0;
+	right: 0;
+}
+#replay-container {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	visibility: hidden;
+}
+svg#replaySvg{
+	width: 8px;
+	opacity: 0.5;
+	position: relative;
+	margin: 0 auto;
+}

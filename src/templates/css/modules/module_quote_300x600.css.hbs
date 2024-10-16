@@ -1,0 +1,30 @@
+/* {{id}} Quote  */
+
+div#{{id}}-txt-wrapper { 
+  margin-top: {{#if txt.marginTop}}{{txt.marginTop}}{{else}}92px{{/if}};
+}
+
+p.quote-txt {
+	{{#unless txt.css}}
+	font-size: 19px;
+	line-height: 25.5px;
+	letter-spacing: 3px;
+	text-indent: 3px;
+	{{~else}}
+	{{#each txt.css}}
+ 	{{@key}}: {{.}}; 
+	{{/each}}
+	{{/unless}}
+}
+
+p.quote-txt span em {
+	letter-spacing: 0;
+	display: inline-block;
+}
+
+p.author {
+	font-size: 17px;
+	letter-spacing: 3px;
+	text-indent: 3px;
+	margin-top: {{txt.author.marginTop}}
+}

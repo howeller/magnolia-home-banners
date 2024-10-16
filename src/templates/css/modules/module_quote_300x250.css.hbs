@@ -1,0 +1,49 @@
+/* {{id}} Quote  */
+
+div#{{id}}-txt-wrapper {
+	color: black;
+	font-size: {{root.size.css.font-size}};
+	letter-spacing: {{root.size.css.letter-spacing}};
+	text-indent: {{root.size.css.letter-spacing}};
+	line-height: {{root.size.css.line-height}};
+	top: {{#if txt.top}}{{txt.top}}{{else}}{{root.size.defaultPicTxtTop}}{{/if}};
+	{{#if txt.width}}
+	width: {{txt.width}};
+	{{/if}}
+	{{#if txt.left}}
+	left: {{txt.left}};
+	{{/if}}
+}
+
+p.quote-txt {
+	{{#unless txt.css}}
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 2px;
+	text-indent: 2px;
+	{{~else}}
+	{{#each txt.css}}
+ 	{{@key}}: {{.}}; 
+	{{/each}}
+	{{/unless}}
+}
+
+p.quote-txt span em {
+	letter-spacing: 0;
+	display: inline-block;
+}
+
+p.author {
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-indent: 2px;
+	margin-top: {{txt.author.marginTop}}
+}
+
+img#{{id}}-pic { 
+	{{#if img.css}}
+	{{#each img.css}}
+	{{@key}}: {{.}};
+	{{/each}}
+	{{/if}}
+}

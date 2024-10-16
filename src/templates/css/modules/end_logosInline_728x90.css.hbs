@@ -1,0 +1,52 @@
+/* End */
+
+#end {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: {{root.width}}px;
+	height: {{root.height}}px;
+}
+	
+#end > * {
+	display: inline-block;
+	position: relative;
+}  
+
+p.cta-txt {
+	display: block;
+	font-size: 13px;
+	line-height: 19px;
+	letter-spacing: 3.5px;
+	text-indent: 3.5px;
+	white-space: nowrap;
+	text-align: center;
+	color: {{root.global.green}};
+}
+div#cta-container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	right: 0;	
+	width: {{#if cta.width}}{{cta.width}}{{else}}242px{{/if}};
+	height: 90px;
+}
+
+img#end-mag-logo {
+	margin-left: 36px;
+	width: {{#if magLogo.width}}{{magLogo.width}}{{else}}224px{{/if}};
+}
+
+div#end-line { 
+	width: 1px;
+	height: 35px;
+	margin: 0 33px;
+}
+
+svg#end-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+	/* margin-top: 23px; */
+}

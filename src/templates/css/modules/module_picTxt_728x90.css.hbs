@@ -1,0 +1,50 @@
+/* {{id}} module_picTxt.css  */
+
+#{{id}}-txt-wrapper {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: {{root.size.css.font-size}};
+	letter-spacing: {{root.size.css.letter-spacing}};
+	text-indent: {{root.size.css.letter-spacing}};
+	line-height: {{root.size.css.line-height}};
+	height: {{root.height}}px;
+	{{#if txt.top}}
+	top: {{txt.top}};
+	{{/if}}
+	{{#if txt.width}}
+	width: {{txt.width}};
+	{{/if}}
+	{{#if txt.left}}
+	left: {{txt.left}};
+	{{/if}}
+}
+{{#if txt.css}}	
+{{!/*  OVER RIDE DEFAULTS ON <p> IF NEEDED */}}
+#{{id}}-txt-wrapper p { 
+	{{#each txt.css}}
+	{{@key}}: {{.}};
+	{{/each}}
+}
+{{/if}}
+
+{{#each txt.spans}}
+{{~#if css}}
+span#{{../id}}-txt{{int @index}} { 
+	{{#each css}}
+	{{@key}}: {{.}};
+	{{/each}}
+}
+{{/if~}}
+{{/each}}
+
+img#{{id}}-pic { 
+	top: {{#if img.top}}{{img.top}}{{else}}0{{/if}};
+	{{#if img.css}}
+	{{#each img.css}}
+	{{@key}}: {{.}};
+	{{/each}}
+	{{/if}}
+}

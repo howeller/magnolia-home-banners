@@ -1,0 +1,13 @@
+<!-- Pic & Copy {{id}} -->
+<div id="{{id}}" class="full-size">
+	{{#if img}}
+	<img id="{{id}}-pic" class="pic" src="images/{{{img.src}}}" alt="" />
+	{{/if}}
+	<div id="{{id}}-txt-wrapper" class="txt-wrapper">
+		<p class="{{txt.classes}}">
+			{{#each txt.spans}}
+			<span id="{{../id}}-txt{{int @index}}"{{#if class}} class="{{class}}"{{/if}}>{{{txt}}}</span>
+			{{/each}}
+		</p>	
+	</div>
+</div>

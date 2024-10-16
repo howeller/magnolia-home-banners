@@ -1,0 +1,60 @@
+/* End */
+
+#end { top: {{#if top}}{{top}}{{else}}92px{{/if}}; }
+{{#if h1}}
+/* #end p { color: red; } */
+
+p#end-txt {
+	font-size: 21px;
+	line-height: 1;	
+}
+p#end-txt span.minion{
+	letter-spacing: 5px;
+	text-indent: 5px;
+}
+p#end-txt span.brandon{
+	letter-spacing: 6px;
+	text-indent: 5px;
+	margin-top: 10px;
+}
+{{#each h1}}
+{{~#if css}}
+p#end-txt span#end-txt{{int @index}} { 
+	{{#each css}}
+	{{@key}}: {{.}};
+	{{/each}}
+}
+{{/if~}}
+{{/each}}
+{{/if~}}
+
+p.cta-txt {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	color: {{root.global.green}};
+	font-size: 13px;
+	line-height: 1;
+	letter-spacing: 3px;
+	text-indent: 3px;
+	white-space: nowrap;
+}
+div#cta-container {
+	margin-top: {{cta.marginTop}};
+}
+
+img#end-mag-logo {
+	width: {{#if magLogo.width}}{{magLogo.width}}{{else}}228px{{/if}};
+	margin-top: {{magLogo.marginTop}};
+}
+
+div#end-line { 
+	width: 58px;
+	margin-top: 33px;
+}
+
+svg#end-jh-logo {
+	width: {{root.size.jhLogo.width}};
+	height: {{root.size.jhLogo.height}}; /* Need to manually set height */
+	margin-top: 25px;
+}

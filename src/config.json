@@ -1,0 +1,2869 @@
+{
+	"global": {
+		"green": "#00833e",
+		"160x600": {
+			"jhLogo":{"width":"126px", "height":"26px"},
+			"endMagLogo": "mag_logo_stacked_2x.png",
+			"defaultPicTxtTop": "94px",
+			"css": {"font-size":"17px", "line-height": 1, "letter-spacing": "4px"}
+		 },
+		"300x250": {
+			"jhLogo":{"width":"130px", "height":"27px"},
+			"endMagLogo": "mag_logo_2x.png",
+			"defaultPicTxtTop": "16px",
+			"css": {"font-size":"15px", "line-height": 1, "letter-spacing": "4px"}
+		 },
+		"300x600": {
+			"jhLogo":{"width":"146px", "height":"29px"},
+			"endMagLogo": "mag_logo_2x.png",
+			"defaultPicTxtTop": "92px",
+			"css": {"font-size":"21px", "line-height": 1, "letter-spacing": "5px", "text-indent": "5px"}
+		 },
+		"728x90": {
+			"jsToUse":"timeline_728x90.js",
+			"jhLogo":{"width":"143px", "height":"29px"},
+			"endMagLogo": "mag_logo_2x.png",
+			"defaultPicTxtTop": "22px",
+			"introLockUpWidth": "200px",
+			"css": {"font-size":"18px", "line-height": 1, "letter-spacing": "5px"}
+		},
+		"320x50": {
+			"jsToUse":"timeline_728x90.js",
+			"jhLogo":{"width":"52px", "height":"12px"},
+			"magLogo": {"width":"83px"},
+			"endMagLogo": "mag_logo_2x.png",
+			"defaultPicTxtTop": "15px",
+			"css": {"font-size":"9px", "line-height": 1, "letter-spacing": "3px", "text-indent": "3px"},
+			"defaultPicX": "120px",
+			"defaultLockupX": "120px",
+			"lockUpWidth": "200px",
+			"defaultCtaWidth": "138px"
+		},
+		"300x50": {
+			"jsToUse":"timeline_728x90.js",
+			"jhLogo":{"width": "52px", "height": "12px"},
+			"magLogo": {"width": "83px"},
+			"endMagLogo": "mag_logo_2x.png",
+			"defaultPicTxtTop": "15px",
+			"css": {"font-size": "9px", "line-height": 1, "letter-spacing": "3px", "text-indent": "3px"},
+			"defaultPicX": "100px",
+			"defaultLockupX": "120px",
+			"lockUpWidth": "180px",
+			"defaultCtaWidth": "130px"
+		}
+	},
+	"english":{
+		"Concept1": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "EXPLORE THE COLLECTION"
+			},
+			"Concept1_300x250": {
+				"name": "HA13GoogleDV360HTMLDisplayBannerExplore300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "33px",
+							"css": {"color": "white", "font-size": "15px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "69px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "69px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg", "top": "74px" },
+						"txt": {
+							"top": "16px",
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM", "css": {"letter-spacing": "6px"}},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "10px", "font-size":"16px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "14px",
+							"css": { "font-size": "16px", "line-height": "1", "letter-spacing": "4px"},
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "9px","font-size":"15px", "letter-spacing": "6px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "7px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top": "41px",
+						"magLogo": { "marginTop": "0"},
+						"cta": { "marginTop": "64px" }
+					}
+				]
+			},
+			"Concept1_300x600": {
+				"name": "HA14GoogleDV360HTMLDisplayBannerExplore300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "406px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "5px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "181px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg", "top": "200px" },
+						"txt": {
+							"top": "75px",
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM", "css": {"letter-spacing": "6px"}},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "10px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "42px",
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "15px", "letter-spacing": "6px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "10px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top": "220px",
+						"magLogo": { "marginTop": "0"},
+						"cta": { "marginTop": "130px"}
+					}
+				]
+			},
+			"Concept1_728x90": {
+				"name": "HA15GoogleDV360HTMLDisplayBannerExplore728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse": "timeline_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg", "align": "right" },
+						"txt":{ "top": "6px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg", "css": {"left": 0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"_top": "37px",
+							"width": "100%",
+							"css": {"color": "white", "font-size": "0px", "line-height":1, "letter-spacing": "4px", "text-align": "left"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"71px"}},
+								{ "txt": "STYLES", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"155px"}},
+								{ "txt": "TEXTURES", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"146px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg", "css": {"left": "242px"} },
+						"txt": {
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM", "css": {"letter-spacing": "5px", "text-indent": "5px"}},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "10px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg", "css": {"left": "242px"} },
+						"txt": {
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "8px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_logosInline_728x90.css",
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>",
+							"_txt1": "CURATED<br>SIDING&nbsp;&amp;&nbsp;TRIM",
+							"_txt2": "EXPLORE&nbsp;THE<br>COLLECTION",
+							"width": "189px"
+						}
+					}
+				]
+			},
+			"Concept1_160x600": {
+				"name": "HA16GoogleDV360HTMLDisplayBannerExplore160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "437px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "181px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg", "top": "172px" },
+						"txt": {
+							"top": "73px",
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM"},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "8px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "71px",
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "8px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"magLogo": { "marginTop": "0"},
+						"cta": {
+							"marginTop": "219px",
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>EXPLORE</span><span>THE</span><span>COLLECTION</span>"
+							}
+					}
+				]
+			},
+			"Concept1_320x50": {
+				"name": "HA17GoogleDV360HTMLDisplayBannerExplore320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "21px",
+							"width": "100%",
+							"css": {"color": "white", "font-size": "0", "line-height":1, "letter-spacing": "3px", "text-indent": "3px", "text-align": "left"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"24px"}},
+								{ "txt": "STYLES", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"54px"}},
+								{ "txt": "TEXTURES", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"47px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM", "css": {"letter-spacing": "3px", "text-indent": "3px"}},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "6px", "letter-spacing": "4px", "text-indent": "4px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>",
+							"width": "141px"
+						}
+					}
+				]
+			},
+			"Concept1_300x50": {
+				"name": "HA18GoogleDV360HTMLDisplayBannerExplore300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "21px",
+							"width": "100%",
+							"css": {"color": "white", "font-size": "0", "line-height":1, "letter-spacing": "3px", "text-indent": "3px", "text-align": "left"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"20px"}},
+								{ "txt": "STYLES", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"48px"}},
+								{ "txt": "TEXTURES", "css": {"font-size": "8px", "display": "inline-block", "margin-left":"40px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"spans":[
+								{ "class":"brandon", "txt": "TRANSFORM", "css": {"letter-spacing": "3px", "text-indent": "3px"}},
+								{ "class":"minion", "txt": "your home", "css": {"margin-top": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"spans":[
+								{ "class":"minion", "txt": "make it your"},
+								{ "class":"brandon", "txt": "FAVORITE", "css": {"margin-top": "6px", "letter-spacing": "4px"}},
+								{ "class":"minion", "txt": "place to be", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>"
+						}
+					}
+				]
+			}
+		},
+		"Concept2": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "EXPLORE THE COLLECTION"
+			},
+			"Concept2_300x250": {
+				"name": "HA19GoogleDV360HTMLDisplayBannerExploreQuote300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 3,
+						"img": { "src": "joanna_studio_2x.jpg", "css":{"width":"140px"} },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "62px",
+							"left": "140px",
+							"width": "160px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "line-height": "20px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "“For a classic" },
+								{ "txt": "look, Hardi<em>e®<\/em>" },
+								{ "txt": "siding is always" },
+								{ "txt": "my first choice.”" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": { "margin-top": "28px","font-size":"12px" }}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "184px",
+							"classes": "minion",
+							"css": { "font-size": "17px", "line-height": "1", "letter-spacing": "4px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home" },
+								{ "class":"brandon", "txt": "YOUR STYLE", "css": { "margin-top": "7px","letter-spacing": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "33px",
+							"css": {"color": "white", "font-size": "15px", "line-height":1, "letter-spacing": "3px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "69px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "69px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top": "19px",
+						"h1":[
+							{"class":"minion", "txt": "your design"},
+							{"class":"brandon", "txt": "STARTS HERE"}
+						],
+						"magLogo": { "marginTop": "38px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { "marginTop": "36px", "css": { "font-size": "12px"}}
+					}
+				]
+			},
+			"Concept2_300x600": {
+				"name": "HA20GoogleDV360HTMLDisplayBannerExploreQuote300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg", "top":"242px" },
+						"txt":{ "top": "45px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_quote.html",
+						"css": "module_quote_300x600.css",
+						"pause": 3,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt":{
+							"fadeWithPic": true,
+							"marginTop": "421px",
+							"quoteTxt":[
+								"“For a classic look,",
+								"Hardi<em>e®<\/em> siding is always",
+								"my first choice.”"
+							],
+							"author":{ "marginTop": "36px" }
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "252px",
+							"classes": "minion",
+							"css": { "font-size": "20px", "line-height": "1", "letter-spacing": "5px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home" },
+								{ "class":"brandon", "txt": "YOUR", "css": {  "margin-top": "17px"}},
+								{ "class":"brandon", "txt": "STYLE", "css": {  "margin-top": "17px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "5px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "181px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top": "117px",
+						"magLogo": { "marginTop": "99px"},
+						"cta": { "marginTop": "115px"},
+						"h1":[
+							{"class":"minion", "txt": "your design"},
+							{"class":"brandon", "txt": "STARTS HERE"}
+						]
+					}
+				]
+			},
+			"Concept2_728x90": {
+				"name": "HA21GoogleDV360HTMLDisplayBannerExploreQuote728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse":"timeline_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg", "align": "right" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 3,
+						"img": { "src": "joanna_studio_v3_2x.jpg", "css":{ "left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"left": "243px",
+							"width": "485px",
+							"classes": "minion",
+							"css": { "font-size":"17px", "line-height": "21px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "“For a classic look, Hardi<em>e®<\/em> siding is" },
+								{ "txt": "always my first choice.”" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": { "margin-top": "4px","font-size":"16px" }}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.2,
+						"img": { "src": "pic3_2x.jpg", "css":{ "left": 0}},
+						"txt": {
+							"_top": "21px",
+							"width": "100%",
+							"classes": "minion",
+							"css": { "font-size": "18px", "line-height": "1", "letter-spacing": "4px", "text-indent": "4px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home" },
+								{ "class":"brandon", "txt": "YOUR STYLE", "css": { "margin-top": "9px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg", "css": {"left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"_top": "37px",
+							"width": "100%",
+							"css": {"color": "white", "font-size": "0px", "line-height":1, "letter-spacing": "4px", "text-indent": "4px", "text-align": "left"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"71px"}},
+								{ "txt": "STYLES", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"155px"}},
+								{ "txt": "TEXTURES", "css": {"font-size": "15px", "display": "inline-block", "margin-left":"146px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_logosInline_728x90.css",
+						"_txt":{
+							"spans":[
+								{"class":"minion", "txt": "your design",  "css": {"margin-top": "24px"}},
+								{"class":"brandon", "txt": "STARTS HERE",  "css": {"margin-top": "7px"}}
+							]
+						},
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>",
+							"width": "189px"
+						}
+					}
+				]
+			},
+			"Concept2_160x600": {
+				"name": "HA22GoogleDV360HTMLDisplayBannerExploreQuote160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg", "top":"186px" },
+						"txt":{ "top": "26px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 3,
+						"img": { "src": "joanna_studio_v3_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "437px",
+							"classes": "minion",
+							"css": { "font-size":"15px", "line-height": "20px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "“For a classic" },
+								{ "txt": "look, Hardi<em>e®<\/em>" },
+								{ "txt": "siding is always" },
+								{ "txt": "my first choice.”" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": { "margin-top": "22px","font-size": "12px", "letter-spacing": "2.5px", "text-indent": "2.5px" }}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "255px",
+							"classes": "minion",
+							"css": { "font-size": "21px", "line-height": "1", "letter-spacing": "4px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home" },
+								{ "class":"brandon", "txt": "YOUR", "css": { "margin-top": "14px","letter-spacing": "5px"}},
+								{ "class":"brandon", "txt": "STYLE", "css": { "margin-top": "13px","letter-spacing": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "95px",
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "183px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"top": "66px",
+						"magLogo": { "marginTop": "110px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"h1":[
+							{"class":"minion", "txt": "your design"},
+							{"class":"brandon", "txt": "STARTS"},
+							{"class":"brandon", "txt": "HERE"}
+						],
+						"cta": { 
+							"marginTop": "120px",
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>EXPLORE</span><span>THE</span><span>COLLECTION</span>"
+						}
+					}
+				]
+			},
+			"Concept2_320x50": {
+				"name": "HA23GoogleDV360HTMLDisplayBannerExploreQuote320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2,
+						"img": { "src": "pic1_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic2_2x.jpg"},
+						"txt": {
+							"top": "10px",
+							"width": "128px",
+							"css": { "font-size": "11px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home"},
+								{ "class":"brandon", "txt": "YOUR STYLE", "css": {"margin-top": "6px", "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "10px",
+							"width": "128px",
+							"css": { "font-size": "11px", "line-height":1, "letter-spacing": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "your design", "_css": {"margin-top": "7px"}},
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>"
+						}
+					}
+				]
+			},
+			"Concept2_300x50": {
+				"name": "HA24GoogleDV360HTMLDisplayBannerExploreQuote300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2,
+						"img": { "src": "pic1_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic2_2x.jpg"},
+						"txt": {
+							"top": "12px",
+							"width": "110px",
+							"css": { "font-size": "10px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "your home"},
+								{ "class":"brandon", "txt": "YOUR STYLE", "css": {"margin-top": "6px", "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "12px",
+							"width": "110px",
+							"css": { "font-size": "10px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "your design", "_css": {"margin-top": "7px"}},
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>EXPLORE THE</span><span>COLLECTION</span>",
+							"_css": { "font-size": "9px", "line-height": "14px", "letter-spacing": "3px", "text-indent": "3px"}
+						}
+					}
+				]
+			}
+		},
+		"Concept3": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "START YOUR DESIGN"
+			},
+			"Concept3_300x250": {
+				"name": "HA25GoogleDV360HTMLDisplayBannerDesign300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "13px",
+							"spans":[
+								{ "class":"minion", "txt": "see the exterior", "css": {"font-size": "17px"}},
+								{ "class":"brandon", "txt": "OF YOUR HOME", "css": {"margin-top": "9px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "13px",
+							"css": {"font-size": "17px", "line-height":1},
+							"spans":[
+								{ "class":"minion", "txt": "the way you’ve"},
+								{ "class":"brandon", "txt": "ALWAYS IMAGINED", "css": {"margin-top": "9px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "33px",
+							"css": {"color": "white", "font-size": "15px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "69px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "69px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top":"19px",
+						"h1":[
+							{"class":"minion", "txt": "bring your vision"},
+							{"class":"brandon", "txt": "TO LIFE"}
+						],
+						"magLogo": { "marginTop": "38px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { "marginTop": "35px", "css": { "font-size": "13px", "letter-spacing": "2px", "text-indent": "2px"}}
+					}
+				]
+			},
+			"Concept3_300x600": {
+				"name": "HA26GoogleDV360HTMLDisplayBannerDesign300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "406px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "50px",
+							"spans":[
+								{ "class":"minion", "txt": "see the exterior"},
+								{ "class":"brandon", "txt": "OF YOUR HOME", "css": {"margin-top": "12px", "letter-spacing": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "50px",
+							"spans":[
+								{ "class":"minion", "txt": "the way you’ve"},
+								{ "class":"brandon", "txt": "ALWAYS", "css": {"margin-top": "12px", "letter-spacing": "6px"}},
+								{ "class":"brandon", "txt": "IMAGINED", "css": {"margin-top": "10px", "letter-spacing": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "93px",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "3px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "183px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top":"50px",
+						"magLogo": { "marginTop": "152px"},
+						"cta": { "marginTop": "155px"},
+						"h1":[
+							{"class":"minion", "txt": "bring your vision"},
+							{"class":"brandon", "txt": "TO LIFE"}
+						]
+					}
+				]
+			},
+			"Concept3_728x90": {
+				"name": "HA27GoogleDV360HTMLDisplayBannerDesign728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse":"timeline_HA27_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg", "align": "right"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"css": { "font-size":"17px"},
+							"spans":[
+								{ "class":"minion", "txt": "see the exterior", "css": { "letter-spacing": "4px", "text-indent": "4px"}},
+								{ "class":"brandon", "txt": "OF YOUR HOME", "css": {"margin-top": "8px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.2,
+						"img": { "src": "pic2_2x.jpg", "css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"css": { "font-size":"17px"},
+							"spans":[
+								{ "class":"minion", "txt": "the way you’ve", "css": {"letter-spacing": "4px", "text-indent": "4px"}},
+								{ "class":"brandon", "txt": "ALWAYS", "css": {"margin-top": "8px"}},
+								{ "class":"brandon", "txt": "IMAGINED", "css": {"margin-top": "7px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg", "css": {"left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "90px", "font-size": "15px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"width": "33.3%"}},
+								{ "txt": "STYLES", "css": {"width": "33.3%"}},
+								{ "txt": "TEXTURES", "css": {"width": "33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_logosInline_728x90.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>START</span><span>YOUR</span><span>DESIGN</span>",
+							"width": "189px"
+						}
+					}
+				]
+			},
+			"Concept3_160x600": {
+				"name": "HA28GoogleDV360HTMLDisplayBannerDesign160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "437px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "52px",
+							"spans":[
+								{ "class":"minion", "txt": "see the"},
+								{ "class":"minion", "txt": "exterior", "css": {"margin-top": "10px"}},
+								{ "class":"brandon", "txt": "OF YOUR", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}},
+								{ "class":"brandon", "txt": "HOME", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic3_2x.jpg" },
+						"txt": {
+							"top": "52px",
+							"spans":[
+								{ "class":"minion", "txt": "the way"},
+								{ "class":"minion", "txt": "you’ve", "css": {"margin-top": "10px"}},
+								{ "class":"brandon", "txt": "ALWAYS", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}},
+								{ "class":"brandon", "txt": "IMAGINED", "css": {"margin-top": "10px", "letter-spacing": "5px", "text-indent": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "181px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "181px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"top": "50px",
+						"h1":[
+							{"class":"minion", "txt": "bring"},
+							{"class":"minion", "txt": "your vision", "css": {"margin-top": "7px"}},
+							{"class":"brandon", "txt": "TO LIFE", "css": {"margin-top": "11px"}}
+						],
+						"magLogo": { "marginTop": "126px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { 
+							"marginTop": "120px", 
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>EXPLORE</span><span>THE</span><span>COLLECTION</span>"
+						}
+					}
+				]
+			},
+			"Concept3_320x50": {
+				"name": "HA29GoogleDV360HTMLDisplayBannerDesign320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "_css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"top": "6px",
+							"width": "194px",
+							"css": { "font-size":"15px"},
+							"spans":[
+								{ "class":"minion", "txt": "see the exterior"},
+								{ "class":"brandon", "txt": "OF YOUR HOME", "css": {"margin-top": "6px", "font-size":"15px", "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "pic2_2x.jpg"},
+						"txt": {
+							"top": "6px",
+							"width": "194px",
+							"classes": "minion",
+							"css": { "font-size":"15px"},
+							"spans":[
+								{ "class":"minion", "txt": "the way you’ve" },
+								{ "class":"brandon", "txt": "ALWAYS IMAGINED", "css": {"margin-top": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products2_2x.jpg"},
+						"txt": {
+							"top": "6px",
+							"width": "194px",
+							"classes": "minion",
+							"css": { "font-size":"15px"},
+							"spans":[
+								{ "class":"minion", "txt": "bring your vision" },
+								{ "class":"brandon", "txt": "TO LIFE", "css": {"margin-top": "6px"}}
+							]
+						}
+
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>START</span><span>YOUR DESIGN</span>"
+						}
+					}
+				]
+			},
+			"Concept3_300x50": {
+				"name": "HA30GoogleDV360HTMLDisplayBannerDesign300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg"},
+						"lockUpWidth": "174px"
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "_css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"top": "9px",
+							"width": "174px",
+							"css": { "font-size":"13px"},
+							"spans":[
+								{ "class":"minion", "txt": "see the exterior"},
+								{ "class":"brandon", "txt": "OF YOUR HOME", "css": {"margin-top": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "pic2_2x.jpg"},
+						"txt": {
+							"top": "9px",
+							"width": "174px",
+							"classes": "minion",
+							"css": { "font-size":"13px"},
+							"spans":[
+								{ "class":"minion", "txt": "the way you’ve" },
+								{ "class":"brandon", "txt": "ALWAYS IMAGINED", "css": {"margin-top": "6px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products2_2x.jpg"},
+						"txt": {
+							"top": "9px",
+							"width": "174px",
+							"classes": "minion",
+							"css": { "font-size":"13px"},
+							"spans":[
+								{ "class":"minion", "txt": "bring your vision" },
+								{ "class":"brandon", "txt": "TO LIFE", "css": {"margin-top": "6px"}}
+							]
+						}
+
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"txt2": "<span>START</span><span>YOUR DESIGN</span>"
+						}
+					}
+				]
+			}
+		},
+		"Concept4": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "DOWNLOAD THE BROCHURE"
+			},
+			"Concept4_300x250": {
+				"name": "HA31GoogleDV360HTMLDisplayBannerDownload300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "64px",
+							"classes": "minion",
+							"css": {"color": "white", "font-size": "17px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors, styles, and"},
+								{ "class":"minion", "txt": "textures", "css": {"margin-top": "7px"}},
+								{ "class":"minion", "txt": "curated by", "css": {"margin-top": "7px"}},
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "12px", "font-size": "18px", "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "33px",
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "15px", "line-height":1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "txt": "PLANK"},
+								{ "txt": "BOARD & BATTEN", "css": {"margin-top": "69px"}},
+								{ "txt": "SHINGLE", "css": {"margin-top": "69px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "14px",
+							"css": {"font-size": "18px"},
+							"spans":[
+								{ "class":"minion", "txt": "get"},
+								{ "class":"minion", "txt": "inspired by", "css": {"margin-top": "4px"}},
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "8px", "font-size": "20px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top": "41px",
+						"magLogo": { "marginTop": "0"},
+						"cta": { "marginTop": "64px" }
+					}
+				]
+			},
+			"Concept4_300x600": {
+				"name": "HA32GoogleDV360HTMLDisplayBannerDownload300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "406px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "112px",
+							"classes": "minion",
+							"css": {"color": "white", "font-size": "20px", "line-height":1, "letter-spacing": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors, styles, and"},
+								{ "class":"minion", "txt": "textures", "css": {"margin-top": "7px"}},
+								{ "class":"minion", "txt": "curated by", "css": {"margin-top": "7px"}},
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "12px","font-size": "22px","letter-spacing": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"_top": "91px",
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "6px"},
+							"spans":[
+								{ "txt": "PLANK"},
+								{ "txt": "BOARD<br>& BATTEN", "css": {"margin-top": "169px", "line-height":"24px"}},
+								{ "txt": "SHINGLE", "css": {"margin-top": "168px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "87px",
+							"spans":[
+								{ "class":"minion", "txt": "get"},
+								{ "class":"minion", "txt": "inspired by", "css": {"margin-top": "4px"}},
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "12px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top":"202px",
+						"magLogo": { "marginTop": "0"},
+						"cta": { 
+							"marginTop": "109px",
+							"_txt1": "<span>CURATED</span><span>SIDING & TRIM</span>",
+							"_txt2": "<span>DOWNLOAD</span><span>THE BROCHURE</span>",
+							"_css": { "font-size": "15px", "line-height": "17px", "margin-top": "109px"}
+						}
+					}
+				]
+			},
+			"Concept4_728x90": {
+				"name": "HA33GoogleDV360HTMLDisplayBannerDownload728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse":"timeline_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg", "align": "left"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "css":{ "left": "300px"}},
+						"txt": {
+							"classes": "minion",
+							"width": "300px",
+							"css": { "font-size":"17px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors, styles, and textures"},
+								{ "class":"minion", "txt": "curated by", "css": {"margin-top": "3px"}},
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "9px", "font-size": "18px", "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "3products2_2x.jpg", "css": {"left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "90px", "font-size": "15px", "line-height":"20px", "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "txt": "PLANK", "css": {"width": "33.3%"}},
+								{ "txt": "BOARD<br>& BATTEN", "css": {"width": "33.3%"}},
+								{ "txt": "SHINGLE", "css": {"width": "33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.2,
+						"img": { "src": "pic4_2x.jpg", "css":{ "left": "300px"}},
+						"txt": {
+							"classes": "minion",
+							"width": "300px",
+							"css": { "font-size":"21px", "letter-spacing": "4px", "text-indent": "4px"},
+							"spans":[
+								{ "class":"minion", "txt": "get inspired by" },
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "11px", "font-size":"22px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_logosInline_728x90.css",
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>DOWNLOAD THE</span><span>BROCHURE</span>",
+							"width": "189px"
+						}
+					}
+				]
+			},
+			"Concept4_160x600": {
+				"name": "HA34GoogleDV360HTMLDisplayBannerDownload160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt":{ "top": "437px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg" },
+						"txt": {
+							"top": "93px",
+							"classes": "minion",
+							"css": {"color": "white", "font-size": "18px", "line-height": "23px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors"},
+								{ "class":"minion", "txt": "styles, and"},
+								{ "class":"minion", "txt": "textures"},
+								{ "class":"minion", "txt": "curated by"},
+								{ "class":"brandon", "txt": "JOANNA", "css": {"margin-top": "7px","font-size": "19px", "line-height": 1, "letter-spacing": "3px", "text-indent": "3px"}},
+								{ "class":"brandon", "txt": "GAINES", "css": {"margin-top": "7px","font-size": "19px", "line-height": 1, "letter-spacing": "3px", "text-indent": "3px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"_top": "91px",
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "16px", "line-height":1, "letter-spacing": "6px"},
+							"spans":[
+								{ "txt": "PLANK"},
+								{ "txt": "BOARD<br>& BATTEN", "css": {"margin-top": "169px", "line-height":"22px"}},
+								{ "txt": "SHINGLE", "css": {"margin-top": "169px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "94px",
+							"spans":[
+								{ "class":"minion", "txt": "get"},
+								{ "class":"minion", "txt": "inspired by", "css": {"margin-top": "4px"}},
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "12px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"magLogo": { "marginTop": "0"},
+						"cta": { 
+							"marginTop": "219px",
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>DOWNLOAD</span><span>THE</span><span>BROCHURE</span>",
+							"css": { "font-size": "14px", "line-height": "18px", "letter-spacing": "3px", "text-indent": "3px"}
+						}
+					}
+				]
+			},
+			"Concept4_320x50": {
+				"name": "HA35GoogleDV360HTMLDisplayBannerDownload320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "_css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"top": "6px",
+							"width": "200px",
+							"css": { "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors, styles, and textures"},
+								{ "class":"minion", "txt": "curated by", "css": {"margin-top": "3px"}},
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "6px", "font-size": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "3products2_2x.jpg"},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "10px", "line-height":"12px", "letter-spacing": "2px", "text-indent": "2px"},
+							"spans":[
+								{ "txt": "PLANK", "css": {"width": "33.3%"}},
+								{ "txt": "BOARD<br>& BATTEN", "css": {"width": "33.3%"}},
+								{ "txt": "SHINGLE", "css": {"width": "33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg"},
+						"txt": {
+							"top": "8px",
+							"width": "178px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "get inspired by" },
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "4px", "font-size":"15px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>DOWNLOAD THE</span><span>BROCHURE</span>"
+						}
+					}
+				]
+			},
+			"Concept4_300x50": {
+				"name": "HA36GoogleDV360HTMLDisplayBannerDownload300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.1,
+						"img": { "src": "joanna_studio_2x.jpg"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic2_2x.jpg", "_css":{ "left": "242px"}},
+						"txt": {
+							"classes": "minion",
+							"top": "6px",
+							"width": "180px",
+							"css": { "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "colors, styles, and textures"},
+								{ "class":"minion", "txt": "curated by", "css": {"margin-top": "3px"}},
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "6px", "font-size": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "3products2_2x.jpg"},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "10px", "line-height":"12px", "letter-spacing": "2px", "text-indent": "2px"},
+							"spans":[
+								{ "txt": "PLANK", "css": {"width": "33.3%"}},
+								{ "txt": "BOARD<br>& BATTEN", "css": {"width": "33.3%"}},
+								{ "txt": "SHINGLE", "css": {"width": "33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "pic4_2x.jpg"},
+						"txt": {
+							"top": "8px",
+							"width": "180px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "get inspired by" },
+								{ "class":"brandon", "txt": "POSSIBILITY", "css": {"margin-top": "4px", "font-size":"15px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>DOWNLOAD THE</span><span>BROCHURE</span>"
+						}
+					}
+				]
+			}
+		},
+		"Concept5": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "REQUEST A FREE SAMPLE"
+			},
+			"Concept5_300x250": {
+				"name": "HA37GoogleDV360HTMLDisplayBannerSample300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg", "left": "0px"},
+						"txt":{ "left": "140px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "94px",
+							"classes": "brandon-m",
+							"css": {"color": "white", "font-size": "17px", "line-height":1, "letter-spacing": "7px", "text-indent": "7px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": {"margin-top": "5px"}},
+								{ "txt": "TEXTURES", "css": {"margin-top": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "joanna_studio_v2_2x.jpg" },
+						"txt": {
+							"top": "182px",
+							"classes": "minion",
+							"css": { "color": "black", "font-size": "19px", "line-height": 1, "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "9px", "font-size": "18px", "letter-spacing": "4px", "text-indent": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "12px",
+							"css": { "font-size": "17px"},
+							"spans":[
+								{ "class":"minion", "txt": "every home"},
+								{ "class":"brandon", "txt": "TELLS A STORY", "css": { "margin-top": "7px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top":"19px",
+						"h1":[
+							{"class":"minion", "txt": "yours"},
+							{"class":"brandon", "txt": "STARTS HERE"}
+						],
+						"magLogo": { "marginTop": "38px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { "marginTop": "36px", "css": { "font-size": "12px", "letter-spacing": "3px", "text-indent": "3px"}}
+					}
+				]
+			},
+			"Concept5_300x600": {
+				"name": "HA38GoogleDV360HTMLDisplayBannerSample300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg" },
+						"txt":{ "top": "390px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "255px",
+							"classes": "brandon-m",
+							"css": { "color": "white", "font-size": "21px", "line-height": 1, "letter-spacing": "8px", "text-indent": "8px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": { "margin-top": "14px"} },
+								{ "txt": "TEXTURES", "css": { "margin-top": "14px"} }
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "joanna_studio_v2_2x.jpg" },
+						"txt": {
+							"top": "475px",
+							"classes": "minion",
+							"css": { "color": "black", "font-size": "20px", "line-height": 1, "letter-spacing": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": { "font-size": "20px", "letter-spacing": "3px", "text-indent": "3px", "margin-top": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"_top": "92px",
+							"css": { "color": "black", "font-size": "20px", "line-height": 1, "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "class":"minion", "txt": "every home"},
+								{ "class":"brandon", "txt": "TELLS A STORY", "css": { "margin-top": "12px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top": "103px",
+						"magLogo": { "marginTop": "120px"},
+						"h1":[
+							{"class":"minion", "txt": "yours"},
+							{"class":"brandon", "txt": "STARTS HERE"}
+						],
+						"cta": { "marginTop": "86px" }
+					}
+				]
+			},
+			"Concept5_728x90": {
+				"name": "HA39GoogleDV360HTMLDisplayBannerSample728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse":"timeline_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg", "align": "left"},
+						"lockupX": "233px"
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg", "css": {"left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "font-size": "15px", "line-height":"20px", "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "txt": "COLORS" },
+								{ "txt": "STYLES" },
+								{ "txt": "TEXTURES" }
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "joanna_studio_v2_2x.jpg", "css": {"left":"300px"}},
+						"txt": {
+							"classes": "minion",
+							"width": "300px",
+							"css": {  "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.2,
+						"img": { "src": "pic4_2x.jpg", "css":{ "left": "300px"}},
+						"txt": {
+							"classes": "minion",
+							"width": "300px",
+							"spans":[
+								{ "class":"minion", "txt": "every home" },
+								{ "class":"brandon", "txt": "TELLS A STORY", "css": {"margin-top": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end2.html",
+						"css": "end_logosAndCopy_728x90.css",
+						"txt":{
+							"spans":[
+								{"class":"minion", "txt": "yours",  "css": {"margin-top": "24px"}},
+								{"class":"brandon", "txt": "STARTS HERE",  "css": {"margin-top": "7px", "font-size": "20px"}}
+							]
+						},
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A FREE</span><span>SAMPLE</span>",
+							"width": "131px"
+						}
+					}
+				]
+			},
+			"Concept5_160x600": {
+				"name": "HA40GoogleDV360HTMLDisplayBannerSample160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg" },
+						"txt":{ "top": "432px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "3products2_2x.jpg" },
+						"txt": {
+							"fadeWithPic": true,
+							"top": "267px",
+							"classes": "brandon-m",
+							"css": { "color": "white", "letter-spacing": "6px", "text-indent": "6px"},
+							"spans":[
+								{ "txt": "COLORS"},
+								{ "txt": "STYLES", "css": { "margin-top": "9px"} },
+								{ "txt": "TEXTURES", "css": { "margin-top": "9px"} }
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "joanna_studio_v2_2x.jpg" },
+						"txt": {
+							"top": "443px",
+							"classes": "minion",
+							"css": { "font-size": "19px", "line-height": "27px", "letter-spacing": "3px", "text-indent": "3px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated" },
+								{ "class":"minion", "txt": "by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": { "margin-top": "1px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.4,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "84px",
+							"css": { "font-size": "18px", "line-height": 1, "letter-spacing": "5px", "text-indent": "5px"},
+							"spans":[
+								{ "class":"minion", "txt": "every home"},
+								{ "class":"brandon", "txt": "TELLS", "css": { "margin-top": "14px", "font-size": "19px"}},
+								{ "class":"brandon", "txt": "A STORY", "css": { "margin-top": "13px", "font-size": "19px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"top": "83px",
+						"h1":[
+							{"class":"minion", "txt": "yours"},
+							{"class":"brandon", "txt": "STARTS", "css": {"margin-top": "13px"}},
+							{"class":"brandon", "txt": "HERE", "css": {"margin-top": "13px"}}
+						],
+						"magLogo": { "marginTop": "110px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { 
+							"marginTop": "124px",
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A FREE</span><span>SAMPLE</span>"
+						}
+					}
+				]
+			},
+			"Concept5_320x50": {
+				"name": "HA41GoogleDV360HTMLDisplayBannerSample320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"jsToUse": "timelineConcept5Mobile.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 1.8,
+						"img": { "src": "pic1_2x.jpg"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.0,
+						"img": { "src": "3products2_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "8px", "line-height":"10px", "letter-spacing": "2px", "text-indent": "2px"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"width":"33.3%"}},
+								{ "txt": "STYLES", "css": {"width":"33.3%"}},
+								{ "txt": "TEXTURES", "css": {"width":"33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 1.8,
+						"img": { "src": "joanna_studio_v2_2x.jpg"},
+						"txt": {
+							"_top": "8px",
+							"width": "160px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 1.8,
+						"img": { "src": "pic4_2x.jpg"},
+						"txt": {
+							"_top": "8px",
+							"width": "160px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "every home" },
+								{ "class":"brandon", "txt": "TELLS A STORY", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "mod5",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 1.8,
+						"txt": {
+							"_top": "8px",
+							"width": "160px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "yours" },
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>REQUEST A</span><span>FREE SAMPLE</span>"
+						}
+					}
+				]
+			},
+			"Concept5_300x50": {
+				"name": "HA42GoogleDV360HTMLDisplayBannerSample300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"jsToUse": "timelineConcept5Mobile.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 1.8,
+						"img": { "src": "pic1_2x.jpg"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.0,
+						"img": { "src": "3products2_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "brandon-m",
+							"top": "0px",
+							"width": "100%",
+							"css": {"color": "white", "display": "flex", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "8px", "line-height":"10px", "letter-spacing": "2px", "text-indent": "2px"},
+							"spans":[
+								{ "txt": "COLORS", "css": {"width":"33.3%"}},
+								{ "txt": "STYLES", "css": {"width":"33.3%"}},
+								{ "txt": "TEXTURES", "css": {"width":"33.3%"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 1.8,
+						"img": { "src": "joanna_studio_v2_2x.jpg"},
+						"txt": {
+							"top": "8px",
+							"width": "150px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "curated by" },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "4px", "font-size": "13px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 1.8,
+						"img": { "src": "pic4_2x.jpg"},
+						"txt": {
+							"top": "8px",
+							"width": "150px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "every home" },
+								{ "class":"brandon", "txt": "TELLS A STORY", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "mod5",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 1.8,
+						"txt": {
+							"top": "8px",
+							"width": "150px",
+							"classes": "minion",
+							"css": { "font-size":"14px", "letter-spacing":"2px", "text-indent":"2px"},
+							"spans":[
+								{ "class":"minion", "txt": "yours" },
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "4px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>REQUEST A</span><span>FREE SAMPLE</span>"
+						}
+					}
+				]
+			}
+		},
+		"Concept6": {
+			"group": {
+				"cta1Txt": "CURATED SIDING & TRIM",
+				"cta2Txt": "REQUEST A QUOTE"
+			},
+			"Concept6_300x250": {
+				"name": "HA43GoogleDV360HTMLDisplayBannerQuote300x250",
+				"approved": true,
+				"width": 300, "height": 250,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x250.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg" },
+						"txt":{ "_top": "45px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_quote.html",
+						"css": "module_quote_300x250.css",
+						"pause": 3.1,
+						"img": { "src": "joanna_studio_2x.jpg", "css": {"width": "140px"} },
+						"txt":{
+							"fadeWithPic": false,
+							"top": "48px",
+							"left": "140px",
+							"width": "160px",
+							"quoteTxt":[
+								"“We aim to",
+								"give clients a",
+								"beautiful home",
+								"that stands the",
+								"test of time.”"
+							],
+							"author":{ "marginTop": "24px" }
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2,
+						"img": { "src": "2products_2x.jpg" },
+						"txt": {
+							"top": "37px",
+							"classes": "minion",
+							"css": { "color": "white", "font-size": "18px"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon", "txt": "DESIGNED", "css": { "letter-spacing": "5px", "text-indent": "5px", "margin-top": "12px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.1,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "20px",
+							"classes": "minion",
+							"css": { "font-size": "14px"},
+							"spans":[
+								{ "class":"minion", "txt": "to bring your" },
+								{ "class":"brandon", "txt": "VISION TO LIFE", "css": { "font-size": "16px", "letter-spacing": "4px", "text-indent": "4px", "margin-top": "7px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x250.css",
+						"top": "19px",
+						"h1":[
+							{"class":"minion", "txt": "your transformation"},
+							{"class":"brandon", "txt": "STARTS HERE"}
+						],
+						"magLogo": { "marginTop": "38px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { "marginTop": "36px", "css": { "font-size": "12px", "letter-spacing": "3px", "text-indent": "3px"}}
+					}
+				]
+			},
+			"Concept6_300x600": {
+				"name": "HA44GoogleDV360HTMLDisplayBannerQuote300x600",
+				"approved": true,
+				"width": 300, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_300x600.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg", "top":"242px" },
+						"txt":{ "top": "45px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_quote.html",
+						"css": "module_quote_300x600.css",
+						"pause": 3.1,
+						"img": { "src": "joanna_studio_v3_2x.jpg" },
+						"txt":{
+							"fadeWithPic": true,
+							"marginTop": "411px",
+							"css":{"font-size": "17px", "line-height": "25.5px", "letter-spacing":"2px"},
+							"quoteTxt":[
+								"“We aim to give clients a",
+								"beautiful home that stands",
+								"the test of time.”"
+							],
+							"author":{ "marginTop": "30px" }
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2,
+						"img": { "src": "2products_2x.jpg" },
+						"txt": {
+							"classes": "minion",
+							"css": { "color": "white"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon", "txt": "DESIGNED", "css": { "font-size": "25px", "letter-spacing": "8px", "text-indent": "8px", "margin-top": "14px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.1,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"_top": "92px",
+							"classes": "minion",
+							"spans":[
+								{ "class":"minion", "txt": "to bring your" },
+								{ "class":"brandon", "txt": "VISION", "css": { "font-size": "23px", "letter-spacing": "9px", "margin-top": "13px"}},
+								{ "class":"brandon", "txt": "TO LIFE", "css": { "font-size": "23px", "letter-spacing": "9px", "margin-top": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_300x600.css",
+						"top": "96px",
+						"magLogo": { "marginTop": "97px"},
+						"cta": { "marginTop": "102px"},
+						"h1":[
+							{"class":"minion", "txt": "your"},
+							{"class":"minion", "txt": "transformation", "css":{"margin-top":"11px"}},
+							{"class":"brandon", "txt": "STARTS HERE", "css":{"margin-top": "14px", "letter-spacing": "5px", "text-indent": "5px"}}
+						]
+					}
+				]
+			},
+			"Concept6_728x90": {
+				"name": "HA45GoogleDV360HTMLDisplayBannerQuote728x90",
+				"approved": true,
+				"width": 728, "height": 90,
+				"jsToUse":"timeline_728x90.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_728x90.css",
+						"pause": 2.1,
+						"img": { "src": "pic1_2x.jpg", "align": "left"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.5,
+						"img": { "src": "joanna_studio_2x.jpg" },
+						"txt": {
+							"classes": "minion",
+							"width": "506px",
+							"left": "222px",
+							"top": "0",
+							"css": { "display":"flex", "flex-direction": "column", "justify-content": "center", "align-items":"center", "height":"90px", "font-size":"17px", "letter-spacing": "1.5px", "text-indent": "1.5px"},
+							"spans":[
+								{ "class":"minion", "txt": "“We aim to give clients a beautiful home" },
+								{ "class":"minion", "txt": "that stands the test of time.”", "css":{ "margin-top": "5px"} },
+								{ "class":"brandon", "txt": "JOANNA GAINES", "css": {"margin-top": "9px","letter-spacing": "2px", "text-indent": "2px"}}
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.4,
+						"img": { "src": "2products_2x.jpg", "css": {"left": 0}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "minion",
+							"top": "0px",
+							"width": "50%",
+							"css": {"color": "white"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon-m", "txt": "DESIGNED", "css": {"margin-top": "12px"} }
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.2,
+						"img": { "src": "pic4_2x.jpg", "css":{ "left": "364px"}},
+						"txt": {
+							"classes": "minion",
+							"width": "364px",
+							"spans":[
+								{ "class":"minion", "txt": "to bring your" },
+								{ "class":"brandon", "txt": "VISION TO LIFE", "css": {"margin-top": "12px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end2.html",
+						"css": "end_logosAndCopy_728x90.css",
+						"txt":{
+							"spans":[
+								{"class":"minion", "txt": "your",  "css": {"margin-top": "11px"}},
+								{"class":"minion", "txt": "transformation",  "css": {"margin-top": "4px"}},								{"class":"brandon", "txt": "STARTS HERE",  "css": {"margin-top": "7px", "letter-spacing":"5px", "text-indent":"5px"}}
+							]
+						},
+						"cta": { 
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A QUOTE</span>",
+							"width": "130px"
+						}
+					}
+				]
+			},
+			"Concept6_160x600": {
+				"name": "HA46GoogleDV360HTMLDisplayBannerQuote160x600",
+				"approved": true,
+				"width": 160, "height": 600,
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_160x600.css",
+						"pause": 2.2,
+						"img": { "src": "pic1_2x.jpg", "top":"186px" },
+						"txt": { "top": "25px" }
+					},
+					{
+						"id": "mod2",
+						"html": "module_quote.html",
+						"css": "module_quote_160x600.css",
+						"pause": 3.1,
+						"img": { "src": "joanna_studio_v3_2x.jpg" },
+						"txt":{
+							"fadeWithPic": true,
+							"top": "404px",
+							"css":{"font-size": "15px", "line-height": "23px", "letter-spacing": "2px", "text-indent": "2px"},
+							"quoteTxt":[
+								"“We aim to ",
+								"give clients a",
+								"beautiful home",
+								"that stands the",
+								"test of time.”"
+							],
+							"author":{ "marginTop": "22px" }
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2,
+						"img": { "src": "2products_2x.jpg" },
+						"txt": {
+							"top": "66px",
+							"classes": "minion",
+							"css": { "color": "white"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon", "txt": "DESIGNED", "css": { "font-size": "18px", "margin-top": "13px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.1,
+						"img": { "src": "pic4_2x.jpg" },
+						"txt": {
+							"top": "68px",
+							"classes": "minion",
+							"css": {"font-size": "16px"},
+							"spans":[
+								{ "class":"minion", "txt": "to bring your", "css": {"font-size": "15px"} },
+								{ "class":"brandon", "txt": "VISION", "css": { "margin-top": "11px"}},
+								{ "class":"brandon", "txt": "TO LIFE", "css": { "margin-top": "11px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_160x600.css",
+						"top": "67px",
+						"h1":[
+							{"class":"minion", "txt": "your", "css": {"font-size": "15px"}},
+							{"class":"minion", "txt": "transformation", "css": {"margin-top": "7px", "font-size": "15px"}},
+							{"class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "12px", "font-size": "15px"}}
+						],
+						"magLogo": { "marginTop": "120px" },
+						"line": { "marginTop": "27px", "width":"48px"},
+						"jhLogo": { "marginTop": "21px"},
+						"cta": { 
+							"marginTop": "157px",
+							"txt1": "<span>CURATED</span><span>SIDING &</span><span>TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A QUOTE</span>"
+						}
+					}
+				]
+			},
+			"Concept6_320x50": {
+				"name": "HA47GoogleDV360HTMLDisplayBannerQuote320x50",
+				"approved": true,
+				"width": 320, "height": 50,
+				"jsToUse": "timelineConcept6Mobile.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.5,
+						"img": { "src": "pic1_2x.jpg", "align": "left"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "2products_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "minion",
+							"top": "0px",
+							"width": "50%",
+							"css": {"color": "white", "display": "flex", "flex-direction":"column", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "13px"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon-m", "txt": "DESIGNED", "css": {"margin-top": "4px"} }
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.3,
+						"img": { "src": "pic3_2x.jpg"},
+						"txt": {
+							"width": "160px",
+							"classes": "minion",
+							"css": { "font-size":"13px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "to bring your" },
+								{ "class":"brandon", "txt": "VISION TO LIFE", "css": {"margin-top": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.3,
+						"txt": {
+							"width": "160px",
+							"classes": "minion",
+							"css": {"font-size":"13px"},
+							"spans":[
+								{ "class":"minion", "txt": "your transformation", "css":{ "letter-spacing":"2px", "text-indent":"2px"} },
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A QUOTE</span>"
+						}
+					}
+				]
+			},
+			"Concept6_300x50": {
+				"name": "HA48GoogleDV360HTMLDisplayBannerQuote300x50",
+				"approved": true,
+				"width": 300, "height": 50,
+				"jsToUse": "timelineConcept6Mobile.js",
+				"frame_modules":[
+					{
+						"id": "intro",
+						"html": "module_intro.html",
+						"css": "intro_mobile.css",
+						"pause": 2.5,
+						"img": { "src": "pic1_2x.jpg", "align": "left"}
+					},
+					{
+						"id": "mod2",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt.css",
+						"pause": 2.2,
+						"img": { "src": "2products_2x.jpg", "css": {"left":0, "width":"100%"}},
+						"txt": {
+							"fadeWithPic": true,
+							"classes": "minion",
+							"top": "0px",
+							"width": "50%",
+							"css": {"color": "white", "display": "flex", "flex-direction":"column", "justify-content": "center", "align-items":"center", "height": "50px", "font-size": "11px"},
+							"spans":[
+								{ "class":"minion", "txt": "products" },
+								{ "class":"brandon-m", "txt": "DESIGNED", "css": {"margin-top": "6px"} }
+							]
+						}
+					},
+					{
+						"id": "mod3",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.3,
+						"img": { "src": "pic3_2x.jpg"},
+						"txt": {
+							"width": "150px",
+							"classes": "minion",
+							"css": { "font-size":"11px", "letter-spacing":"3px", "text-indent":"3px"},
+							"spans":[
+								{ "class":"minion", "txt": "to bring your" },
+								{ "class":"brandon", "txt": "VISION TO LIFE", "css": {"margin-top": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "mod4",
+						"html": "module_picTxt.html",
+						"css": "module_picTxt_728x90.css",
+						"pause": 2.3,
+						"txt": {
+							"width": "150px",
+							"classes": "minion",
+							"css": {"font-size":"11px"},
+							"spans":[
+								{ "class":"minion", "txt": "your transformation", "css":{ "letter-spacing":"2.5px", "text-indent":"2.5px"} },
+								{ "class":"brandon", "txt": "STARTS HERE", "css": {"margin-top": "5px"}}
+							]
+						}
+					},
+					{
+						"id": "end",
+						"html": "module_end.html",
+						"css": "end_mobile.css",
+						"cta": {
+							"txt1": "<span>CURATED</span><span>SIDING&nbsp;&amp;&nbsp;TRIM</span>",
+							"txt2": "<span>REQUEST</span><span>A QUOTE</span>"
+						}
+					}
+				]
+			}
+		}
+	}
+}

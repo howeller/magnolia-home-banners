@@ -1,0 +1,49 @@
+var objData = {
+	pathToRoot: "../../../",
+	listing: [{{!#each this.english}}
+		{
+			folderName: "build",
+			title: "{{@key}}",
+			folderList: [
+				{{#each this.english}}{
+					folderName: "html",
+					title: "{{@key}}",{{!log @key}}
+					bannerList: [{{#each this}}{{#unless @first}}
+						{
+							overwriteSizeDisplay: "", 
+							label: "{{name}}",{{log name}}
+							src: "{{name}}",
+							w: {{width}},
+							h: {{height}},
+							type: "html5",
+							approved: {{approved}},
+							dload: true,
+							backup: false,
+							manualzip: true
+						}{{/unless}}{{#unless @last}},{{/unless}}{{/each}}
+					]
+				}{{#unless @last}},
+				{{/unless}}{{/each}}
+				{{#if (isStatics)}},{{!log (isStatics)}}
+				{
+					folderName: "statics",
+					title: "Static Banners",
+					bannerList: [{{#each (imgList)}}{{log this.name}}
+						{
+							overwriteSizeDisplay: "",
+							label: "{{this.name}}",
+							src: "{{this.name}}",
+							w: {{this.width}},
+							h: {{this.height}},
+							approved: true,
+							dload: true,
+							manualzip: false,
+							backup: false,
+							type: "{{this.ext}}"
+						}{{#unless @last}},{{/unless}}{{/each}}
+					]
+				}{{/if}}
+			]
+		}{{#unless @last}}, {{/unless}}{{!/each}} 
+	]
+}

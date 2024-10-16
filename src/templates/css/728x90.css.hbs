@@ -1,0 +1,49 @@
+.container { position: absolute; }
+
+.txt-wrapper { width: 242px; }
+
+/* Text */
+
+p {
+	text-align: center;
+	width: 100%;
+	line-height: 1;
+}
+
+/* Images */
+
+img.pic {
+	top: 0;
+	height: 90px;
+	object-fit: contain;
+}
+
+div.line {
+	background-color: black;
+	height: 1px;
+}
+{{#each frame_modules}}
+
+{{!--/* Module {{int @index}} Start : {{this.css}} */--}}
+{{> (getName this.css) root=..}}
+{{!--/* Module {{int @index}} End  : {{this.css}} */--}}
+{{/each}}
+
+/* Replay Btn */
+
+.replay {
+	bottom: 0;
+	right: 0;
+}
+#replay-container {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	visibility: hidden;
+}
+svg#replaySvg{
+	width: 12px;
+	opacity: 0.5;
+	position: relative;
+	margin: 0 auto;
+}

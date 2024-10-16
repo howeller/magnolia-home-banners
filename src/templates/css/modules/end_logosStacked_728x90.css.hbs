@@ -1,0 +1,82 @@
+/* End */
+
+#end {
+  display: block;
+	width: {{root.width}}px;
+	height: {{root.height}}px; 
+}
+	
+#end > * {
+	display: block;
+  position: absolute;
+}  
+
+#end-lockup {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	left: 289px;
+	width: 171px;
+	height: 100%;
+}
+#end-lockup > *  { display: block; }
+
+{{~#if txt.spans}}
+/* #end p { color: red; } */
+
+p#end-txt {
+	font-size: 17px;
+	line-height: 1;
+	letter-spacing: 4px;
+	white-space: nowrap;
+	width: 198px;
+	height: 100%;
+}
+
+{{#each txt.spans}}
+{{~#if css}}
+p#end-txt span#end-txt{{int @index}} {
+	{{#each css}}
+	{{@key}}: {{.}};
+	{{/each}}
+}
+{{~/if}}
+{{/each}}
+{{~/if}}
+
+p.cta-txt {
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 3px;
+	white-space: nowrap;
+	text-align: center;
+	color: {{root.global.green}};
+}
+div#cta-container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	right: 0;	
+	width: {{#if cta.width}}{{cta.width}}{{else}}143px{{/if}};
+	height: {{root.height}}px;
+}
+
+img#end-mag-logo {
+	margin-top: 7px;
+	width: 171px;
+}
+
+div#end-line { 
+	width: 45px;
+	height: 1px;
+	margin: 41px 0;
+}
+
+svg#end-jh-logo {
+	width: 108px;
+	height: 22px; /* Need to manually set height */
+	margin-top: 61px;
+}
